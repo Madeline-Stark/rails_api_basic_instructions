@@ -1,5 +1,7 @@
 # Rails API Basic Instructions
 
+### Make the API
+- Note: these instructions don't include relationships and are for a simple social media project build with no authentication
 - `rails new bookface-backend --api`
 
 ### cors
@@ -37,4 +39,4 @@ end
 
 ```
 - then run `rails s -p 3001` and go to `/users`
-- could also user Serializer
+- could also use Serializer
